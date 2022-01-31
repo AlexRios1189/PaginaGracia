@@ -21,7 +21,7 @@ body{
 }
 
 
-.logoCentral{
+.img-fluid .logoCentral{
     width: 200px;
     margin-top: 30px;
     border-radius: 10px;
