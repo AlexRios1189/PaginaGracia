@@ -201,6 +201,22 @@ h3{
     transform-style: preserve-3d;
 }
 
+@media (max-width: 991px) {
+   
+    .list-group-item.list-group-item-action{
+        font-size: 17px;   
+    }
 
+    .col.barra{
+        margin-left: 0;
+    }
+
+    .img-fluid.fotos{
+        height: 250px;
+    }
+
+   
+    
+}
 
 
