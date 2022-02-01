@@ -205,6 +205,18 @@ h3{
     display: none;
 }
 
+.row.nosotros{
+    display: none;
+}
+
+.row.imgcd{
+    display: none;
+}
+
+.row.botones{
+    display: none;
+}
+
 @media (max-width: 991px) {
    
     .list-group-item.list-group-item-action{
@@ -217,6 +229,23 @@ h3{
 
     .img-fluid.fotos{
         height: 250px;
+    }
+
+    .row.biografia{
+        display: none;
+    }
+
+    .row.nosotros{
+        display: block;
+    }
+
+    .row.imgcd{
+        display: block;
+        width: 100%;
+    }
+
+    .img-fluid.cd{
+        padding: 0;
     }
 
 }
@@ -239,12 +268,80 @@ h3{
 
     .card.card-body{
         padding: 5px 0 0px 10px;
+        width: 200px; 
+        height: 100px;
     }
 
     a{
         color: black;
         font-weight: bold;
     }
+
+    .botones{
+        display: none;
+    }
+
+    .row.botones{
+        display: block;
+    }
+
+    .img-fluid.foto{
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 100px;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 427px){
+    .btn.btn-secondary{
+        margin-left: 50px;
+    }
+
+    .card.card-body{
+        width: 50px;
+        width: 150px; 
+        height: 100px;
+    }
+    
+    .row.biografia{
+        display: none;
+    }
+
+    .row.nosotros{
+        display: block;
+    }
+
+    .row.imgcd{
+        display: block;
+        width: 100%;
+    }
+
+    .img-fluid.cd{
+        padding: 0;
+    }
+
+    .botones{
+        display: none;
+    }
+
+    .row.botones{
+        display: block;
+    }
+
+    .img-fluid.foto{
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+
+    p{
+        text-align: center;
+    }
+
 }
 
 
