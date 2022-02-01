@@ -201,6 +201,10 @@ h3{
     transform-style: preserve-3d;
 }
 
+.btn.btn-secondary{
+    display: none;
+}
+
 @media (max-width: 991px) {
    
     .list-group-item.list-group-item-action{
@@ -215,8 +219,32 @@ h3{
         height: 250px;
     }
 
-   
-    
+}
+
+.btn.btn-secondary{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .list-group-item{
+        display: none;
+    }
+
+    .btn.btn-secondary{
+        display: block;
+        margin-left: 100px;
+        margin-top: 30px;
+        
+    }
+
+    .card.card-body{
+        padding: 5px 0 0px 10px;
+    }
+
+    a{
+        color: black;
+        font-weight: bold;
+    }
 }
 
 
