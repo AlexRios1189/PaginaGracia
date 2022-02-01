@@ -302,7 +302,6 @@ h3{
     }
 
     .card.card-body{
-        width: 50px;
         width: 150px; 
         height: 100px;
     }
@@ -342,6 +341,18 @@ h3{
         text-align: center;
     }
 
+}
+
+@media (max-width: 377px){
+
+    .btn.btn-secondary{
+        margin-left: 0;
+    }
+
+    .card.card-body{
+        width: 100px; 
+        height: 100px;
+    }
 }
 
 
